@@ -18,7 +18,7 @@ class DeckDetails extends Component {
         });
     };
 
-    async componentWillUpdate() {
+    async componentDidUpdate() {
         const decks = await getAllDecks();
 
         this.setState({
