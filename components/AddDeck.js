@@ -37,7 +37,7 @@ class AddDeck extends Component {
             deckName: ''
         });
 
-        this.props.navigation.navigate('DecksList', { 'deckId': deckName});
+       this.props.navigation.navigate('DeckDetails', { 'deckId': deckName});
     };
 
     render() {
